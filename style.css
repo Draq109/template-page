@@ -71,3 +71,44 @@ img{
     color: #E5E7EB;
     filter: contrast(50%);
 }
+
+.sentence {
+    font-size: 38px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    margin-bottom: 36px;
+}
+.container{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+ul.containers {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+}
+
+ul.subtext {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    gap: 65.5px;
+    font-size: 15px;
+    filter: contrast(50%);
+}
+
+.subtext li {
+    margin-top: -8px;
+}
