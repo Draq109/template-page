@@ -72,6 +72,10 @@ img{
     filter: contrast(50%);
 }
 
+.illustration-section {
+    margin-bottom: 100px;
+}
+
 .sentence {
     font-size: 38px;
     text-align: center;
@@ -109,6 +113,33 @@ ul.subtext {
     filter: contrast(50%);
 }
 
+
+
 .subtext li {
     margin-top: -8px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: left;
+
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    filter: contrast(30%);
+    margin-bottom: 0;
+}
+.author {
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-left: 350px;
 }
