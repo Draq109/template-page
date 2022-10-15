@@ -19,6 +19,7 @@ body, html {
     list-style: none;
     justify-content: center;
     gap: 20px;
+    flex: 0 1 auto;
     
 }
 a {
@@ -44,7 +45,7 @@ a {
     gap: 60px;
 }
 
-button {
+.hero-sign-up-button {
     background-color: #3882F6;
     border: 0px;
     border-radius: 8px;
@@ -142,4 +143,66 @@ ul.subtext {
     font-weight: bolder;
     margin-top: 0;
     margin-left: 350px;
+}
+
+.interactive-container {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    height: 140px;
+    width: 925px;
+}
+
+.ad-box p {
+    margin: 0;
+    padding: 0;     
+    color: white;
+    text-align: start;
+    
+}
+
+.ad-box-header {
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+.ad-box-subtext {
+    font-size: 16px;
+    filter: contrast(80%);
+}
+
+.ad-box-sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 7px 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-text {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
