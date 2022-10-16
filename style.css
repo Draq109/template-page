@@ -152,7 +152,7 @@ ul.subtext {
     justify-content: center;
 }
 
-.ad-box {
+.box-1 {
     display: flex;
     background-color: #3882F6;
     border-radius: 12px;
@@ -163,21 +163,22 @@ ul.subtext {
     width: 925px;
 }
 
-.ad-box p {
+.ad-box-header {
     margin: 0;
     padding: 0;     
     color: white;
     text-align: start;
-    
-}
-
-.ad-box-header {
     font-size: 24px;
     font-weight: bolder;
     letter-spacing: -1px;
+    
 }
 
 .ad-box-subtext {
+    margin: 0;
+    padding: 0;     
+    color: white;
+    text-align: start;
     font-size: 16px;
     filter: contrast(80%);
 }
